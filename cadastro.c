@@ -11,7 +11,7 @@ int main(void) {
     int opcao;
 
     printf("=== CADASTRO DE EQUIPAMENTOS ===\n");
-    printf("Codigo do equipamento: ");
+    printf("Codigo do equipamento:101 ");
 
     if (scanf("%d", &codigo) != 1) {
         printf("Codigo invalido!\n");
@@ -19,12 +19,12 @@ int main(void) {
     }
     getchar();
 
-    printf("Nome do equipamento: ");
+    printf("Nome do equipamento:notebook ");
     if (fgets(nome, sizeof(nome), stdin) == NULL) {
         return 1;
     }
 
-    printf("Tipo do equipamento: ");
+    printf("Tipo do equipamento:informatica ");
     if (fgets(tipo, sizeof(tipo), stdin) == NULL) {
         return 1;
     }
